@@ -1,0 +1,28 @@
+Gijon, Fri 24 Jan 2020
+
+What happens when you initialize a repository? Why do you need to do it?
+When I initialize a repository git creates diferents folders. I need to do it
+for tracking my work.
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+The working directory is a single checkout of one version of the project. This
+essentially means if I checkout a branch (e.g. master) and are sat on a
+particular commit (e.g. HEAD), my working directory is the "umbrella" term for
+all my files and folders.
+The staging area is best described as a preview of my next commit.
+The value I think it offers is that it allows me to fine-tune my commits.
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+How do the diagrams help you visualize the branch structure?
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+What are the pros and cons of Git's automatic merging vs. always doing merges
+manually?
