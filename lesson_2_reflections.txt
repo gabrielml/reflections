@@ -15,14 +15,34 @@ The value I think it offers is that it allows me to fine-tune my commits.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+The staging area is best described as a preview of my next commit, that allows
+me to fine-tune my commits adding or removing changes from staging area until
+I am satisfied with how my next commit will look like.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+A branch is essentially an independent line of development. Implementing new
+features or fixing a bug are examples where branching is useful because I
+can isolate it from the original code base.
+Git branches help to keep a project organized.
 
 How do the diagrams help you visualize the branch structure?
+Diagrams help me visualize the branch structure showing me the commits that
+compose the branch. Feature branches provide an isolated environment
+for every change to my codebase and later if necessary I can easy merge then.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+The result of merging two branches together is that Git creates a new commit
+that is referred to as a merge commit that results from combining the changes
+from my "feature branch" and "master" from the point where the two branches
+diverged. We represent it in the diagram the way we do because the changes
+from my "feature branch" are integrated into the HEAD of the target branch.
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+The pros of Git's automatic merging:
+ * Saves time. It's faster than manually merging.
+ * Let me concentrate on the changes which actually contain conflicts.
+The cons:
+ * If there is no conflict it should work properly.
