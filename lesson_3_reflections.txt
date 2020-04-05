@@ -11,7 +11,10 @@ without me expecting it.
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
+   Forks are local instantiations that let you make changes to someone else's
+codebase. Clones are copies of all code on the master branch. It is an exact
+replica of the code on github. Branches are a slightly changed or modified
+section of code that meets different objectives.
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
