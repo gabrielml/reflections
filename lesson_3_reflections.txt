@@ -19,7 +19,11 @@ section of code that meets different objectives.
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+Remote tracking branches are local copies of remote branches. They PRESERVE
+THE STATE of remote branches AS IT WAS during the initial clone or last fetch
+operation. The point of creating remote tracking branches is very simple:
+whenever you want to check the state of remote branch you should consult a
+remote tracking branch.The remote tracking branches are treated as read only.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
