@@ -39,4 +39,7 @@ identify and frustrating.
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+ A separate branch allows to make changes in the project safely off to one side and merging them back into the original project, the stable master branch, once they have proved to be correct.
+ A branch essentially is a unique set of code changes with a unique name. Each repository can have one or more branches. The main branch, the one where all changes eventually get merged back into, and is called master.
+ The master branch is so important because is the production code, is deployable, ready to roll out into the worl. The master branch is meant to be stable, and it is the social contract of open source software to never ever push anything to master that is not tested or that breaks the build.
+ I use to work directly in master branch when I am working on my own or with just one or two other people.
