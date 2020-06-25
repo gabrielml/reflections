@@ -28,7 +28,13 @@ remote tracking branch.The remote tracking branches are treated as read only.
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+  Without using Git or GitHub I could collaborate usings other similar version
+control tools like GitLab, BitBucket or SourceForge.
+  On the other hand if I couldn't use any other form of version control, I'll
+try to use shared folder like DropBox's folders or Real-time editors like
+Google Docs. The principal problems with this approach it is working on the
+same part of the file or notice the changes of my coworkers will be harder to
+identify and frustrating. 
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
